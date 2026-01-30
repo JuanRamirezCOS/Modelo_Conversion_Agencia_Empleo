@@ -211,9 +211,9 @@ def exportar_archivos(df_resultado):
     return archivos
 
 def main():
-    print("\n" + "="*70)
+    print("\n" + "="*50)
     print("🤖 PREDICCIÓN DIARIA")
-    print("="*70 + "\n")
+    print("="*50 + "\n")
     
     modelo, columnas_modelo = cargar_modelo()
     if modelo is None: return
@@ -230,9 +230,9 @@ def main():
     df_resultado = generar_predicciones(df_procesado, modelo, columnas_modelo)
     archivos = exportar_archivos(df_resultado)
     
-    print("\n" + "="*70)
+    print("\n" + "="*50)
     print(f"✅ COMPLETADO - {len(archivos)} archivos generados")
-    print("="*70 + "\n")
+    print("="*50 + "\n")
 
 if __name__ == "__main__":
     main()

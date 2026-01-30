@@ -1,5 +1,5 @@
 """
-Script de Diagnóstico - Modelo de Conversión
+Script de diagnostico - Modelo de Conversión
 Analiza las predicciones sin generar archivos Excel
 """
 
